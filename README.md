@@ -19,23 +19,23 @@ function updates the cart icon element with the total quantity of items in the c
 
 
 
-# This line defines a function called handleFetchData which takes an optional parameter called query. This function returns a Promise object that will resolve with an array of products from a local server.
+> This line defines a function called handleFetchData which takes an optional parameter called query. This function returns a Promise object that will resolve with an array of products from a local server.
 ```
 const handleFetchData = async (query = '') => {
 ```
 
-# This line sends an HTTP GET request to the server with the given query string parameter. The await keyword tells JavaScript to wait for the response to come back before moving on to the next line.
+> This line sends an HTTP GET request to the server with the given query string parameter. The await keyword tells JavaScript to wait for the response to come back before moving on to the next line.
 
 ```
   const res = await fetch(`http://localhost:3000/shop?q=${query}`);
 ```
 
-# This line sends an HTTP GET request to the server with the given query string parameter. The await keyword tells JavaScript to wait for the response to come back before moving on to the next line.
+> This line sends an HTTP GET request to the server with the given query string parameter. The await keyword tells JavaScript to wait for the response to come back before moving on to the next line.
 ```
   const shoArrays = await res.json();
 ```
 
-# This line extracts the JSON data from the server's response body and assigns it to the variable shoArrays.
+> This line extracts the JSON data from the server's response body and assigns it to the variable shoArrays.
 
 ```
   return shoArrays
@@ -43,7 +43,7 @@ const handleFetchData = async (query = '') => {
 
 ```
 
-# This line filters the shoArrays array based on the query parameter. It returns a new array that contains only the products whose name matches the query (case-insensitive).
+> This line filters the shoArrays array based on the query parameter. It returns a new array that contains only the products whose name matches the query (case-insensitive).
 
 ```
     .map(({ name, image, price, category, id }) => `
@@ -64,7 +64,7 @@ const handleFetchData = async (query = '') => {
 
 ```
 
-# This line maps each product in the filtered array to an HTML string that represents a card. The string uses the product's properties to populate the card's content, including an id attribute that uniquely identifies the card.
+> This line maps each product in the filtered array to an HTML string that represents a card. The string uses the product's properties to populate the card's content, including an id attribute that uniquely identifies the card.
 
 ```
 const handleRenderUsers = () => {
@@ -78,7 +78,7 @@ handleRenderUsers();
 
 ```
 
-# This code defines a function called handleRenderUsers that calls handleFetchData and updates the innerHTML property of an HTML element with the id of output using the filtered and mapped HTML strings. Finally, it calls handleRenderUsers to execute the function.
+> This code defines a function called handleRenderUsers that calls handleFetchData and updates the innerHTML property of an HTML element with the id of output using the filtered and mapped HTML strings. Finally, it calls handleRenderUsers to execute the function.
 
 ```
 let shopObj = [];
@@ -109,4 +109,4 @@ let handleDecrement = (id) => {
 
 ```
 
-# These lines define two functions: handleIncrement and handleDecrement, which are event handlers for clicking on the "+" and "-" buttons respectively. These functions update the shopObj array with the selected product and quantity. If the product already exists in shopObj, it simply updates its
+>  These lines define two functions: handleIncrement and handleDecrement, which are event handlers for clicking on the "+" and "-" buttons respectively. These functions update the shopObj array with the selected product and quantity. If the product already exists in shopObj, it simply updates its
