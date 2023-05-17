@@ -19,7 +19,7 @@
             "name" : "Fashion Sexiest Mock Neck Ribbed Bodycon Dress",
             "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/45/369033/1.jpg?4525",
             "catogory" : "women",
-            "price" : 40
+            "price" : 4090
         },
         {
             "id": 3,
@@ -33,40 +33,40 @@
             "name" : "Fashion Women's Floral Sleeve Office Long Grown Dresses - Red",
             "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/221243/1.jpg?0940",
             "catogory" : "women",
-            "price" : 40
+            "price" : 3300
         },
         {
             "id": 5,
-            "name" : "",
-            "image" : "shop/p6.jpg",
+            "name" : "Fashion Ladies Official Long Turkey Dresses - Black",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/49/890243/1.jpg?5383",
             "catogory" : "women",
-            "price" : 40
+            "price" : 4700
         },
         {
             "id": 6,
-            "name" : "",
-            "image" : "shop/p7.jpg",
+            "name" : "Fashion Ladies Fashion Office Dresses Turkey Floral - Blue",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/25/421243/1.jpg?3486",
             "catogory" : "women",
-            "price" : 40
+            "price" : 4000
         },
         {
             "id": 7,
             "name" : "",
-            "image" : "shop/p8.jpg",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/63/779144/1.jpg?3124",
             "catogory" : "women",
-            "price" : 40
+            "price" : 2400
         },
         {
             "id": 8,
-            "name" : "",
+            "name" : "Fashion Sneakers Women Shoes Women's Shoes Ladies",
             "image" : "shop/p9.jpg",
             "catogory" : "women",
             "price" : 40
         },
         {
             "id": 9,
-            "name" : "",
-            "image" : "shop/p10.jpg",
+            "name" : "Fashion Women Shoes Ladies Shoes Sneakers Women Shoes",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/65/089144/1.jpg?3298",
             "catogory" : "women",
             "price" : 40
         },
