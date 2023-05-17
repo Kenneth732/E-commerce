@@ -1,0 +1,137 @@
+{
+    "shop" : [
+        {
+            "id": 0,
+            "name" : "Generic Women's Solid Color Cotton Blend Zipper Hoodie Jacket Loose Coffee 2XL",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/67/869935/1.jpg?7561",
+            "catogory" : "women",
+            "price" : 2000
+        },
+        {
+            "id": 1,
+            "name" : "Generic Hoodie Plain Woman Sweatshirt Zip Jackets Grey XL",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/37/442376/1.jpg?7872",
+            "catogory" : "women",
+            "price" : 700
+        },
+        {
+            "id": 2,
+            "name" : "Fashion Sexiest Mock Neck Ribbed Bodycon Dress",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/45/369033/1.jpg?4525",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 3,
+            "name" : "SHARE THIS PRODUCT Fashion Women's Office Floral Print Wedding Long Grown Casual Dresses Party",
+            "image" : "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/96/990243/1.jpg?4972",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 4,
+            "name" : "",
+            "image" : "shop/p5.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 5,
+            "name" : "",
+            "image" : "shop/p6.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 6,
+            "name" : "",
+            "image" : "shop/p7.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 7,
+            "name" : "",
+            "image" : "shop/p8.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 8,
+            "name" : "",
+            "image" : "shop/p9.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 9,
+            "name" : "",
+            "image" : "shop/p10.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 10,
+            "name" : "",
+            "image" : "shop/p11.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 11,
+            "name" : "",
+            "image" : "shop/p12.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 12,
+            "name" : "",
+            "image" : "shop/p13.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 13,
+            "name" : "",
+            "image" : "shop/p14.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 14,
+            "name" : "",
+            "image" : "shop/p15.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 15,
+            "name" : "",
+            "image" : "shop/p16.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 16,
+            "name" : "",
+            "image" : "shop/p17.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 17,
+            "name" : "",
+            "image" : "shop/p18.jpg",
+            "catogory" : "women",
+            "price" : 40
+        },
+        {
+            "id": 18,
+            "name" : "",
+            "image" : "shop/p19.jpg",
+            "catogory" : "women",
+            "price" : 40
+        }
+    ]
+}

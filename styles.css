@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header{
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    background-color: #f8f9fa;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-item {
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+    
+    .navbar-toggler {
+      display: none;
+    }
+  } */
+
+  #background{
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b1aa8152-820e-4d91-aefd-76556fce6e61/deyq5r3-d53955f0-9efd-4c0d-9545-3e1a4443523b.jpg/v1/fill/w_1110,h_720,q_70,strp/dasha_by_ven_digo_deyq5r3-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODMxIiwicGF0aCI6IlwvZlwvYjFhYTgxNTItODIwZS00ZDkxLWFlZmQtNzY1NTZmY2U2ZTYxXC9kZXlxNXIzLWQ1Mzk1NWYwLTllZmQtNGMwZC05NTQ1LTNlMWE0NDQzNTIzYi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.jf-L4wP7ucgkFy_uZBzuWEyF7CVXiVTa4Ayb0Jzth1E');
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.searchBar{
+    background: #ffff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    width: 40%;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    display: flex;
+    align-self: center;
+    transform: translateX(-50%);
+  }
+  
+  .searchBar input{
+    width: 100%;
+    padding: 6px 100px;
+    background: transparent;
+    border: 0;
+    outline: none;
+  }
+  .bi{
+    color: #fff;
+    font-size: 30px;
+    /* background: red; */
+    color: red;
+  }
+
+  .content-container{
+    width: 100%;
+    padding: 5%;
+  }
+.content-container h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+  .cards{
+    padding: 2% 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .image-list{
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+  .userID{
+    position: absolute;
+    border-radius: 50%;
+    width: 15%;
+    height: 10%;
+    top: 0;
+    right: 0;
+    background: url('/meta/px.png');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 2px #444;
+    cursor: pointer;
+  }
+  .image{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+  .card img{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .catogories{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .calc{
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+button{
+    padding: 4px 20px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    background: #ffff;
+    color: 000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+button p{
+    font-size: 30px;
+    color: #000;
+}
+.cartAmount{
+  color: red;
+}
